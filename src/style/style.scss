@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(245, 230, 230);
+    height: 100%;
+    padding: 0;
+    margin: 0;
+
+    .mainTitle{
+        text-align: center;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 50px;
+    }
+
+    .mainBlock{     
+        min-height: 100%;      
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        background-color: white;
+        padding: 1rem;
+        border-radius: 30px;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        border: solid black 4px;
+    
+        .titleDiv{
+            font-size: 40px;
+            text-align: center;
+        }
+    
+        .imgDiv {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 30px;
+            width: 300px;
+            border:  solid black 2px;
+        }
+    
+        .description{
+            text-align: center;
+        }   
+    }
+
+    .footer {
+        margin-top: 40px;
+        text-align: center;
+        background-color: rgba(175, 175, 241, 0.641);
+        
+        p {
+            margin-top: 20px;
+        }     
+        
+        .declineLaw {
+            font-size: 10px;
+        }
+    }
+
+}
